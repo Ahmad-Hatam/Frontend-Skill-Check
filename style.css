@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato";
+}
+
+.navbar{
+    padding-top: 3vmin;
+}
+
+.navbar-brand{
+    font-family: "Pacifico";
+    font-size: 35px;
+    color: lightcoral !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: "Roboto Condensed";
+    text-decoration: none;
+
+    
+}
+
+.nav-link:hover{
+    color: #00E8E8 !important;
+}
+
+
+.front{
+    background-image: url("pixel-photo-8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 15%;
+    padding-bottom: 40vmin;
+
+}
+
+.heading-1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 38px;
+
+    
+
+}
+
+.d-flex-column{
+    color: white;
+   font-family: "Righteous"; 
+}
+
+.btn-1, .btn-2{
+    margin-top: 10%;
+    margin: 5vmin;
+}
+
+
+
+/* section-2*/
+
+.heading-2{
+    font-family: "Righteous";
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.card{
+    padding: 5%;
+    margin: 5%;
+    margin-right: 2% !important;
+    width: 20rem;
+    box-shadow: 2px 10px 10px 0 rgba(126, 125, 125, 0.589);
+}
+.card > img{
+    height: 250px;
+}
+
+
+/*section-3*/
+
+
+
+.pray{
+    border-radius: 5%;
+    padding-top: 5%;
+    opacity: .8;
+    padding-bottom: 8%;
+    
+
+}
+
+.useless{
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: -20vmin;
+    background: white;
+    top: 10%;
+    padding: 15%;
+    padding-bottom: 20% !important; 
+    border-radius: 2%;
+    text-align: left ;
+    
+}
+
+.para-1 {
+    font-family: "Ubunto";
+    opacity: .8;
+}
+
+/*section-4*/
+
+.section-4{
+    
+    background-color: teal;
+}
+
+.carousel-inner{
+    padding-top: 5%;
+    box-sizing: 2px 2px 2px 2px !important;
+}
+
+.carousel-photo{
+    border-radius: 2%;
+    width: auto;
+    height: 30em;
+    align-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+
+.row .col-md-6 .paragraph{
+    padding-top: 10%;
+    color: whitesmoke;
+}
+
+.heading-carousel{
+    text-align: center;
+    padding-bottom: 3%;
+
+    font-family:"Righteous" ;
+}
+
+.para-carousel{
+    font-family: "Ubunto";
+
+}
+
+
